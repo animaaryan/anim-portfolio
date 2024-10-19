@@ -25,7 +25,7 @@
     justify-content: center;
     width: 100%;
     padding-top: 2.2%;
-    padding-right: 8%;
+    padding-right: 29%;
 }
 
 .li ul {
@@ -47,17 +47,6 @@ a {
 a:hover {
     color:#8c3061;
     transition: .2s;
-}
-
-.name {
-    font-family: "DM Sans", sans-serif;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    font-size: 25px;
-    white-space: nowrap;
-    padding-top: 15%;
 }
 
 .reel-bg {
@@ -124,4 +113,62 @@ a:hover {
 .socials a:hover {
     color:#8c3061;
     transition: .2s;
+}
+
+.thumbnail {
+    display: flex;
+    background-color:#33061ede;
+    width: 100%;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+}
+
+.Description {
+    display: flex;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    font-size: 30px;
+    align-items: left;
+    justify-content: left;
+    margin-top: 7.5%;
+    margin-left: 2%;
+    margin-right: 22%;
+}
+
+.film-1 {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin-left: 25%;
+    margin-top: 7%;
+    
+}
+
+.film-title {
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    font-size: 30px;
+    align-self: right;
+    justify-content: center;
+    display: flex;
+    
+}
+
+hr {
+    background-color:#c63c5180; 
+    height: 10px;
+    border-style: none;
+}
+
+.film-title {
+    font-family: "DM Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: #33061ede;
+    font-size: 40px;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding-top: 1%;
 }
