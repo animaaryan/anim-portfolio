@@ -20,15 +20,15 @@
 
 .logo {
     display: flex;
-    padding-left: 10.5%;
+    padding-left: 8.5%;
 }
 
 .li {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-top: 2.8%;
-    padding-right: 1%;
+    padding-top: 2.4%;
+    padding-right: 10%;
     margin: 0;
 }
 
@@ -186,7 +186,7 @@ hr {
     text-align: center;
     justify-content: center;
     margin-left: auto;
-    margin-right: 52%;
+    margin-right: 48%;
     margin-top: 30%;
 }
 
@@ -216,8 +216,8 @@ hr {
     align-self: flex-start;
     margin-left: auto;
     text-align: left;
-    margin-right: 35%;
-    margin-top: 68%;
+    margin-right: 25%;
+    margin-top: 80%;
     overflow: auto;
 }
 
