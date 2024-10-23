@@ -214,6 +214,13 @@ hr {
     color: #FFF7D1;
     font-weight: bold;
 }
+
+.grid-l-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: 3 / 2 /  / 2;
+}
  /*_____________________________________________ 
                 PROJECT SECTION
  _____________________________________________ */
