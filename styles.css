@@ -140,9 +140,9 @@ hr {
 .grid-resume {
     display: grid;
     grid-template-columns: 2fr 3fr 1fr ;
-    grid-template-rows: 1fr 1fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 3fr 4fr 3fr;
     width: auto;
-    height: 100vh;
+    height: 200vh;
     font-family: "DM Sans", sans-serif;
     color: #FFF7D1;
     padding-top: 20px;
@@ -160,7 +160,8 @@ hr {
     display: flex;
     align-items: left;
     justify-content: left;
-    padding: 20px 30px;
+    padding-top: 42px;
+    padding-left: 30px;
     grid-area: 1 / 2 / 1 / 2;
 }
 
@@ -175,7 +176,8 @@ hr {
     display: flex;
     align-items: right;
     justify-content: right;
-    padding: 45px 30px;
+    padding-top: 34px;
+    padding-right: 30px;
     grid-area: 2 / 1 / 2 / 1;
 }
 
@@ -185,7 +187,7 @@ hr {
     justify-content: left;
     font-style: italic;
     font-weight: bold;
-    padding: 52px 30px;
+    padding: 40px 30px;
     grid-area: 2 / 2 / 2 / 2;
 }
 
@@ -193,7 +195,7 @@ hr {
     display: flex;
     align-items: left;
     justify-content: left;
-    padding: 45px 0px;
+    padding-top: 45px;
     grid-area: 2 / 3 / 2 / 3;
 }
 
@@ -202,8 +204,11 @@ hr {
     flex-direction: column;
     align-items: left;
     justify-content: left;
+    gap: 8px;
     grid-area: 2 / 3 / 2 / 2;
-    padding: 82px 30px;
+    padding-left: 30px;
+    padding-top: 72px;
+    padding-bottom: 20px;
 }
 
 .grid-p-2 li {
@@ -219,8 +224,56 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    grid-area: 3 / 2 /  / 2;
+    grid-area: 3 / 2 / 3 / 2;
 }
+
+.grid-f-2 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 30px;
+    grid-area: 3 / 2 / 3 / 2;
+}
+
+.grid-d-2 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 35px 0px;
+    grid-area: 3 / 3 / 3 / 3;
+}
+
+.grid-p-3  {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap: 8px;
+    grid-area: 3 / 3 / 3 / 2;
+    padding-top: 72px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.grid-p-3 li {
+    list-style: none;
+}
+
+#grid-r-2 {
+    color: #FFF7D1;
+    font-weight: bold;
+}
+
+.grid-l-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: 4 / 2 / 4 / 2;
+}
+
  /*_____________________________________________ 
                 PROJECT SECTION
  _____________________________________________ */
