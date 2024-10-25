@@ -63,7 +63,7 @@ html {
 }
 
 .nav-li a:hover {
-    color:#B5C18E;
+    color:#c3ff00;
     transition: .2s;
 }
 
@@ -133,20 +133,30 @@ html {
 
 .resume-title {
     font-family: "DM Sans", sans-serif;
+    display: flex;
     color: #FFF7D1;
     font-size: 40px;
     font-weight: 250;
-    display: flex;
     justify-content: center;
     align-self: center;
+}
+
+.resume-title a {
+    text-decoration: none;
+    color: #FEFAE0;
+}
+
+.resume-title a:hover {
+    color:#c3ff00;
+    transition: .2s;
 }
 
 .grid-resume {
     display: grid;
     grid-template-columns: 2fr 3fr 1fr ;
-    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 9fr;
+    grid-template-rows: 120px 195px 220px 210px 230px 210px 150px;
     width: auto;
-    height: 200vh;
+    height: 157vh;
     font-family: "DM Sans", sans-serif;
     color: #FFF7D1;
     padding-top: 20px;
@@ -185,13 +195,15 @@ html {
     align-items: center;
     justify-content: center;
     grid-area: 2 / 2 / 2 / 2;
+    margin: 0px 28px;
+    margin-right: 50px;
 }
 
 .grid-t-2 {
     display: flex;
     align-items: right;
     justify-content: right;
-    padding-top: 34px;
+    padding-top: 25px;
     padding-right: 30px;
     grid-area: 2 / 1 / 2 / 1;
 }
@@ -202,7 +214,7 @@ html {
     justify-content: left;
     font-style: italic;
     font-weight: bold;
-    padding: 40px 30px;
+    padding: 30px 30px;
     grid-area: 2 / 2 / 2 / 2;
 }
 
@@ -210,7 +222,7 @@ html {
     display: flex;
     align-items: left;
     justify-content: left;
-    padding-top: 45px;
+    padding-top: 35px;
     grid-area: 2 / 3 / 2 / 3;
 }
 
@@ -222,7 +234,7 @@ html {
     gap: 8px;
     grid-area: 2 / 3 / 2 / 2;
     padding-left: 30px;
-    padding-top: 72px;
+    padding-top: 62px;
     padding-bottom: 20px;
 }
 
@@ -231,6 +243,8 @@ html {
     align-items: center;
     justify-content: center;
     grid-area: 3 / 2 / 3 / 2;
+    margin: 0px 28px;
+    margin-right: 50px;
 }
 
 .grid-f-2 {
@@ -270,6 +284,8 @@ html {
     align-items: center;
     justify-content: center;
     grid-area: 4 / 2 / 4 / 2;
+    margin: 0px 28px;
+    margin-right: 50px;
 }
 
 .grid-f-3 {
@@ -309,6 +325,8 @@ html {
     align-items: center;
     justify-content: center;
     grid-area: 5 / 2 / 5 / 2;
+    margin: 0px 28px;
+    margin-right: 50px;
 }
 
 .grid-f-4 {
@@ -343,12 +361,15 @@ html {
     padding-bottom: 20px;
 }
 
-.grid-l-4 {
+.grid-l-5 {
     display: flex;
     align-items: center;
     justify-content: center;
     grid-area: 6 / 2 / 6 / 2;
+    margin: 0px 28px;
+    margin-right: 50px;
 }
+
 
 .grid-t-3 {
     display: flex;
@@ -390,7 +411,95 @@ html {
     padding-bottom: 20px;
 }
 
+.grid-l-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: 7 / 2 / 7 / 2;
+    margin: 0px 28px;
+    margin-right: 50px;
+}
 
+.grid-t-4 {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding: 35px 30px;
+    grid-area: 7 / 1 / 7 / 1;
+}
+
+.grid-f-6 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 30px;
+    grid-area: 7 / 2 / 7 / 2;
+} 
+
+.grid-d-6 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 35px 0px;
+    grid-area: 7 / 3 / 7 / 3;
+}
+
+.grid-p-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap: 8px;
+    grid-area: 7 / 3 / 7 / 2;
+    padding-top: 72px;
+    padding-left: 30px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+}
+
+.grid-l-7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: 8 / 2 / 8 / 2;
+    margin: 0px 28px;
+    margin-right: 50px;
+}
+
+.grid-f-7 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 30px;
+    grid-area: 8 / 2 / 8 / 2;
+} 
+
+.grid-d-7 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 35px 0px;
+    grid-area: 8 / 3 / 8 / 3;
+}
+
+.grid-p-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap: 8px;
+    grid-area: 8 / 3 / 8 / 2;
+    padding-top: 72px;
+    padding-left: 30px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+}
  /*_____________________________________________ 
                 PROJECT SECTION
  _____________________________________________ */
