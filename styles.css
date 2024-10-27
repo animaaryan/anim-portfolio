@@ -13,6 +13,7 @@ hr {
 
 html {
     width: 100%;
+    background-color: #798645;
 }
 
  /*_____________________________________________ 
@@ -129,6 +130,7 @@ html {
  .container-resume {
     background-color: #798645;
     padding-top: 20px;
+    margin-bottom: 90px;
  }
 
 .resume-title {
