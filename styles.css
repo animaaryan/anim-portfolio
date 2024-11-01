@@ -31,27 +31,31 @@ html {
 
 .child-nav {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 30px 2fr;
     grid-template-rows: auto;
     align-items: center;
     justify-content: center;
-    margin-right: 110px;
 }
 
 .img-nav {
     display: flex;
     align-self: flex-start;
     justify-content: flex-start;
-    grid-column: 1;
-    grid-row: 1;
+    grid-area: 1 / 1 / 1 / 1;
+    margin-left: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.nav-li {
+    grid-area: 1 / 3 / 1 / 3;
 }
 
 .nav-li ul {
     display: flex;
     list-style: none;
-    grid-column: 2;
-    grid-row: 1;
-    gap: 30px;
+    gap: 50px;
 }
 
 .nav-li a {
@@ -729,3 +733,4 @@ html {
  /*_____________________________________________ 
                 RESPONSIVE SECTION
  _____________________________________________ */
+
